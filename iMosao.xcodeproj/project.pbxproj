@@ -20,7 +20,9 @@
 		70794F491647D396001C0A20 /* BonjourClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 70794F481647D396001C0A20 /* BonjourClient.m */; };
 		70794F4B1647D44E001C0A20 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70794F4A1647D44E001C0A20 /* CFNetwork.framework */; };
 		70794F4E1647DF38001C0A20 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70794F4D1647DF38001C0A20 /* MyViewController.m */; };
+		708DD183164A2A2F0057A229 /* deatoa.png in Resources */ = {isa = PBXBuildFile; fileRef = 708DD182164A2A2F0057A229 /* deatoa.png */; };
 		70DC481D1649A5BF00F701B9 /* MosaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DC481C1649A5BF00F701B9 /* MosaoView.m */; };
+		DE7DB7A4164A2B68002A3EE2 /* deatoa_r.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7DB7A3164A2B68002A3EE2 /* deatoa_r.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +46,10 @@
 		70794F4A1647D44E001C0A20 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		70794F4C1647DF38001C0A20 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		70794F4D1647DF38001C0A20 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		708DD182164A2A2F0057A229 /* deatoa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deatoa.png; sourceTree = "<group>"; };
 		70D7824416481DBA00E81B25 /* MosaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosaoView.h; sourceTree = "<group>"; };
 		70DC481C1649A5BF00F701B9 /* MosaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosaoView.m; sourceTree = "<group>"; };
+		DE7DB7A3164A2B68002A3EE2 /* deatoa_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deatoa_r.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 		70794F121647A92F001C0A20 = {
 			isa = PBXGroup;
 			children = (
+				DE7DB7A3164A2B68002A3EE2 /* deatoa_r.png */,
+				708DD182164A2A2F0057A229 /* deatoa.png */,
 				70794F271647A930001C0A20 /* iMasao */,
 				70794F201647A930001C0A20 /* Frameworks */,
 				70794F1E1647A930001C0A20 /* Products */,
@@ -179,6 +185,8 @@
 				70794F341647A930001C0A20 /* Default.png in Resources */,
 				70794F361647A930001C0A20 /* Default@2x.png in Resources */,
 				70794F381647A930001C0A20 /* Default-568h@2x.png in Resources */,
+				708DD183164A2A2F0057A229 /* deatoa.png in Resources */,
+				DE7DB7A4164A2B68002A3EE2 /* deatoa_r.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

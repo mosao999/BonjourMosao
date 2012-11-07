@@ -194,7 +194,7 @@
 
 - (void)sendDataAsServer{
     [server sendData:clientButtonText];
-    serverButton.userInteractionEnabled = NO;
+    clientButton.userInteractionEnabled = NO;
 }
 
 - (void)sendDataAsClient{
